@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        body{
+            background-color: blue;
+            font-family: Arial, Helvetica, sans-serif;   
+        }
+        .form{
+            background-color: #F1EFEF;
+            width: 300px; 
+            height: 350px;
+            border-radius: 20px;
+            padding: 10px 10px 10px 35px ;
+        }
+        .title{
+            text-align: center;
+        }
+        .container{
+            width: 280px;
+            padding: 15px;
+        }
+        .input{
+            margin-bottom: 8px;
+            border-radius: 8px;
+            width: 220px;
+            height: 30px;
+            padding-left: 8px;
+            border: none;
+        }
+        label{
+            font-size: 12px;
+        }
+        .a{
+            font-size: 8px;
+        }
+        .sign{
+            font-size: 12px;
+        }
+        .btn{
+            margin: 8px 0px;
+            border-radius: 8px;
+            width: 230px;
+            height: 30px;
+            padding-left: 8px;
+            border: none;
+            background-color: #5CD2E6;
+            color: #fffadd;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <form class="form">
+        <div class="title">
+            <h2>Create Account</h2>
+        </div>
+        <div class="container">
+            <input class="input" type="text" placeholder="First Name"/>
+            <input class="input" type="text" placeholder="Last Name"/>
+            <input class="input" type="text" placeholder="Email"/>
+            <input class="input" type="text" placeholder="Password"/>
+            <label class="me">
+            Already have an account?
+            </label>
+            <a class="sign" href="#">Sign In</a>
+            <button class="btn">Create Account</button>
+        </div>
+
+    </form>
+</body>
+</html>
